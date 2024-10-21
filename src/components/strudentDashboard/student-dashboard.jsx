@@ -1,0 +1,63 @@
+import React from 'react'
+import Notes from '../notes'
+import { StudentProgress } from '../Circular Progress/Student-progress'
+
+export default function StudentDashboard() {
+  return (
+    <>
+      <div className='flex flex-col gap-[20px]'>
+      <Notes/>
+      
+      <div dir='rtl' className='w-[340px] h-[190px] bg-white rounded-[15px] p-[15px]' >
+        <p className='text-[24px] font-semibold'>علامات</p>
+
+        <div className='flex justify-center pt-[10px] pb-[15px]'>
+          <div className='h-[1px] w-[95%] bg-[#BDBEBF]'/>
+        </div>
+
+        <div className='w-full flex flex-col gap-[10px]'>
+          <div className='flex'> 
+            <div className='flex gap-[5px]'>
+              <div className='size-[28px] bg-slate-400'></div>
+              <p className='text-[16px]'>رياضيات 560/<span className='text-[#7E7F80]'>600</span></p>
+            </div>
+            <div className='mr-[10px]'>
+              <StudentProgress/>
+            </div>
+            <div className='h-[28px] w-[2px] bg-[#BDBEBF] mr-[10px] ml-[25px]'/>
+            <p className='text-[#7E7F80]'>13/3/2025</p>
+          </div>
+
+          <div className='flex'> 
+            <div className='flex gap-[5px]'>
+              <div className='size-[28px] bg-slate-400'></div>
+              <p className='text-[16px]'>رياضيات 560/<span className='text-[#7E7F80]'>600</span></p>
+            </div>
+            <div className='mr-[10px]'>
+              <StudentProgress/>
+            </div>
+            <div className='h-[28px] w-[2px] bg-[#BDBEBF] mr-[10px] ml-[25px]'/>
+            <p className='text-[#7E7F80]'>13/3/2025</p>
+          </div>
+
+          <div className='flex'> 
+            <div className='flex gap-[5px]'>
+              <div className='size-[28px] bg-slate-400'></div>
+              <p className='text-[16px]'>رياضيات 560/<span className='text-[#7E7F80]'>600</span></p>
+            </div>
+            <div className='mr-[10px]'>
+              <StudentProgress/>
+            </div>
+            <div className='h-[28px] w-[2px] bg-[#BDBEBF] mr-[10px] ml-[25px]'/>
+            <p className='text-[#7E7F80]'>13/3/2025</p>
+          </div>  
+            
+        </div>
+
+      </div>
+
+      </div>
+
+    </>
+  )
+}

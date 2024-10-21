@@ -1,4 +1,4 @@
-import StudentDashboard from '@/components/student-dashboard'
+import StudentDashboard from '@/components/strudentDashboard/student-dashboard'
 import React from 'react'
 
 export default function page() {
