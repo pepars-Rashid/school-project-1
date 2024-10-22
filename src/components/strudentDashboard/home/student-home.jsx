@@ -1,6 +1,5 @@
 import React from 'react'
 import Notes from './notes'
-import { StudentProgress } from '../../Circular Progress/Student-progress'
 import Degrees from './degrees'
 import StudentBar from '../Student-bar'
 

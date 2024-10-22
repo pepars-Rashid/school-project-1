@@ -1,6 +1,5 @@
-import StudentSchedule from '@/components/strudentDashboard/week-Schedule/student-schedule'
 
-import React from 'react'
+import StudentSchedule from '@/components/strudentDashboard/week-Schedule/student-schedule'
 
 export default function page() {
   return (

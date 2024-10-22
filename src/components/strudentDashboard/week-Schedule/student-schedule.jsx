@@ -1,4 +1,3 @@
-import React from 'react'
 import Background from '../background'
 import Schedule from './Schedule'
 import StudentBar from '../Student-bar'
