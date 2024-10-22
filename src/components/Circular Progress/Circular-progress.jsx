@@ -13,7 +13,7 @@ export function AnimatedCircularProgressBar({
 
   return (
     <div
-      className={`${className} relative size-[30px] text-[8px] font-semibold`}
+      className={`${className} relative size-[28px] text-[8px] font-semibold`}
       style={
         {
           "--circle-size": "100px",
