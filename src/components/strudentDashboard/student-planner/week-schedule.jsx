@@ -1,5 +1,5 @@
 
-export default function Schedule() {
+export default function WeekSchedule() {
   const Schedule = {
     أحد: ["عربي", "En", "ديانة", "تاريخ", "كهرباء", "هندسة"], 
     اثنين: ["تحليل", "عربي", "En", "كهرباء", "هندسة", ""],
