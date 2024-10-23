@@ -1,11 +1,11 @@
 
 export default function Schedule() {
   const Schedule = {
-    أحد: ["math", "a", "b", "c", "d"], 
-    اثنين: ["math", "a", "b", "c", "d"],
-    ثلاثاء: ["math", "a", "b", "c", "d"], 
-    أربعاء: ["math", "a", "b", "c", "d"],
-    خميس: ["math", "a", "b", "c", "d"], 
+    أحد: ["عربي", "En", "ديانة", "تاريخ", "كهرباء", "هندسة"], 
+    اثنين: ["تحليل", "عربي", "En", "كهرباء", "هندسة", ""],
+    ثلاثاء: ["math", "a", "b", "c", "d", ""], 
+    أربعاء: ["math", "a", "b", "c", "d", ""],
+    خميس: ["math", "a", "b", "c", "d", ""],
   }
 
   const squareStyle = (day, index) =>{
@@ -19,12 +19,12 @@ export default function Schedule() {
     <div className='w-full h-[220px] flex flex-col gap-[5px]'>
       {Object.keys(Schedule).map(day => (
         <div dir='rtl' key={day} className='flex justify-center gap-[5px] text-[10px]'>
-          <h2 className='size-[40px] bg-[#7164FA] flex justify-center items-center rounded-[10px]'>{day}</h2>
+          <h2 className='size-[40px] bg-[#7164FA] flex justify-center items-center rounded-[10px] font-semibold'>{day}</h2>
           <ul className='flex gap-[5px]'> 
             {Schedule[day].map((subject, index) => (
               <li key={index} 
                 className={`${squareStyle(day, index)} 
-                size-[40px] flex justify-center items-center rounded-[10px] border-[1px]`}>
+                size-[40px] flex justify-center items-center rounded-[10px] border-[1px] font-medium`}>
                 {subject}
               </li>
             ))}

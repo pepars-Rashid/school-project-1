@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function StudentBar() {
   return (
-    <div className='w-[365px] h-[75px] rounded-t-[40px] bg-[#07193B] fixed bottom-0'>
+    <div className='w-full h-[75px] rounded-t-[40px] bg-[#07193B] fixed bottom-0'>
       <div className='px-[55px] flex justify-between items-center h-full'>
         <div className='flex items-center h-full'>
           <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
