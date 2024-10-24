@@ -4,8 +4,13 @@ import { StudentProgress } from "@/components/Circular Progress/Student-progress
 export default function Degrees() {
   return (
     <div dir='rtl' className='w-[340px] h-[190px] bg-white rounded-[15px] p-[15px]' >
-        <p className='text-[24px] font-semibold'>علامات</p>
-
+        <div className="flex justify-between items-end pl-[15px]">
+          <p className='text-[24px] font-semibold'>علامات</p>
+          <div className="text-[#7E7F80]">
+            مذاكرة أولى
+            <span className="absolute rotate-90">&lt;</span>
+          </div>
+        </div>
         <div className='flex justify-center pt-[10px] pb-[15px]'>
           <div className='h-[1px] w-[95%] bg-[#BDBEBF]'/>
         </div>

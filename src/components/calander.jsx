@@ -9,8 +9,8 @@ export default function Calander(){
   (element => element + monthDays.filter(day => day === null).length)
   
   return (
-    <div dir='rtl'>
-      <div className="flex flex-wrap gap-[5px]">
+    <div dir='rtl' className="flex justify-center">
+      <div className="w-[340px] flex flex-wrap gap-[5px]">
         {weekdays.map((weekday, index) => (
           <div key={index} 
             className="size-[40px] flex justify-center items-center text-[10px] font-bold border rounded-[10px] border-[#7164FA] border-dashed">

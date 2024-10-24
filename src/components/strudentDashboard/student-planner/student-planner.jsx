@@ -13,16 +13,27 @@ export default function StudentPlanner() {
         <Background/>
       </div>
 
-      <div className='w-[340px] h-[310px] bg-white rounded-[10px] p-[15px]'>
-        <p dir='rtl' className='text-[24px] font-semibold'>برنامج الأسبوع</p>
+      <div dir='rtl' className='w-[340px] h-[310px] bg-white rounded-[10px] p-[15px]'>
+        <div className='flex justify-between items-end'>
+        <p className='text-[24px] font-semibold'>برنامج الأسبوع</p>
+        <div className='text-[12px] text-[#7E7F80]'>13/9/2024</div>
+        </div>
         <div className='h-[2px] w-full bg-[#BDBEBF] mt-[10px] mb-[15px]'/>
         <WeekSchedule/>
       </div>
 
-      <div className='w-[340px] h-fit bg-white rounded-[10px] p-[15px]'>
-        <p dir='rtl' className='text-[24px] font-semibold'>برنامج المذاكرة الاولى</p>
+      <div dir='rtl' className='w-[340px] h-fit bg-white rounded-[10px] p-[15px]'>
+        <div className='flex justify-between items-end'>
+        <p className='text-[24px] font-semibold'>برنامج المذاكرة الاولى</p>
+        <div className='text-[12px] text-[#7E7F80] mr-auto'>نوفمبر 2024</div>
+        <div> </div>
+        </div>
         <div className='h-[2px] w-full bg-[#BDBEBF] mt-[10px] mb-[15px]'/>
         <QuizesSchedule/>
+        <div dir='rtl' className='mt-[5px] px-[10px] flex justify-around items-center w-[88px] h-[40px] bg-[#EAEAFE] rounded-[15px] border border-dashed border-[#7164FA]'>
+          <div className='size-[10px] rounded bg-[#7164FA]'/>
+          <p className='text-[12px]'>يوم مذاكرة</p>
+        </div>
       </div>
 
       <StudentBar/>

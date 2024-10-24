@@ -19,7 +19,7 @@ export default function WeekSchedule() {
     <div className='w-full h-[220px] flex flex-col gap-[5px]'>
       {Object.keys(Schedule).map(day => (
         <div dir='rtl' key={day} className='flex justify-center gap-[5px] text-[10px]'>
-          <h2 className='size-[40px] bg-[#7164FA] flex justify-center items-center rounded-[10px] font-semibold'>{day}</h2>
+          <h2 className='size-[40px] bg-[#7164FA] flex justify-center items-center rounded-[10px] text-white font-semibold'>{day}</h2>
           <ul className='flex gap-[5px]'> 
             {Schedule[day].map((subject, index) => (
               <li key={index} 
