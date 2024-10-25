@@ -7,7 +7,7 @@ const Info = () => <div>Info Section</div>;
 const Notifications = () => <div>Notifications Section</div>;
 const Settings = () => <div>Settings Section</div>;
 
-export default function Dashboard() {
+export default function DashboardCon() {
   const [activeSection, setActiveSection] = useState('info');
 
   // Load all sections when dashboard mounts

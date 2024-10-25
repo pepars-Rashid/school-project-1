@@ -12,7 +12,6 @@ export default function StudentHome() {
       <Degrees/>
 
       </div>
-        <StudentBar/>
     </div>
     </>
   )

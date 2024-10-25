@@ -1,9 +1,9 @@
 
 export default function Calander(){
 
-  const weekdays = ['سبت', 'أحد', 'اثنين', 'ثلاثاء', 'أربعاء', 'خميس', 'جمعة'];
-
-  const monthDays = getMonthDays(2024, 10);
+  const weekdays = ['أحد', 'اثنين', 'ثلاثاء', 'أربعاء', 'خميس', 'جمعة','سبت'];
+  const selectedMonth = 11
+  const monthDays = getMonthDays(2024, selectedMonth -1);
   let selected = [1,4,7,10]
   const selectedPostion = selected.map
   (element => element + monthDays.filter(day => day === null).length)
