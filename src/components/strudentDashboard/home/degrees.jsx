@@ -3,7 +3,7 @@ import { StudentProgress } from "@/components/Circular Progress/Student-progress
 
 export default function Degrees() {
   return (
-    <div dir='rtl' className='w-[340px] h-[190px] bg-white rounded-[15px] p-[15px]' >
+    <div dir='rtl' className='w-full h-fit bg-white rounded-[15px] p-[15px]' >
         <div className="flex justify-between items-end pl-[15px]">
           <p className='text-[24px] font-semibold'>علامات</p>
           <div className="text-[#7E7F80]">
