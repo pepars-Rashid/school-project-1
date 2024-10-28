@@ -11,7 +11,7 @@ export default function SSRbar() {
             <path d="M12.5 0C12.5 0 4.7675 7.41667 0.44625 11.4333C0.1925 11.6889 0 12.0611 0 12.5C0 13.2681 0.55875 13.8889 1.25 13.8889H3.75V23.6111C3.75 24.3792 4.30875 25 5 25H8.75C9.44125 25 10 24.3778 10 23.6111V18.0556H15V23.6111C15 24.3778 15.5588 25 16.25 25H20C20.6912 25 21.25 24.3792 21.25 23.6111V13.8889H23.75C24.4412 13.8889 25 13.2681 25 12.5C25 12.0611 24.8075 11.6889 24.5213 11.4333C20.23 7.41667 12.5 0 12.5 0Z" fill="white" fill-opacity='1'/>
           </svg>
         </Link>
-        <Link href={"link-testing/planner"} 
+        <Link href={"/link-testing/planner"} 
         className='flex items-center h-full'
         >
           <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
