@@ -6,19 +6,16 @@ import StudentPlanner from './student-planner/student-planner';
 import StudentBar from './Student-bar';
 
 export default function StudentDashboard() {
+  // dsadsadadad livequery (db)
+  
   const [activeSection, setActiveSection] = useState('Home');
-
-  useEffect(() => {
-    StudentHome()
-    StudentPlanner()
-  }, []);
 
   const renderSection = () => {
     switch (activeSection) {
       case 'Home':
-        return <StudentHome/>;
+        return <StudentHome />;
       case 'StudentPlanner':
-        return <StudentPlanner/>;
+        return <StudentPlanner />;
       // case 'settings':
       //   return <Settings />;
       default:

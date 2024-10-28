@@ -1,4 +1,5 @@
 
+import SSRbar from '../SSRbar';
 import StudentBar from '../Student-bar'
 import QuizesSchedule from './quizes-schedule';
 import WeekSchedule from './week-schedule';
@@ -35,7 +36,7 @@ export default function StudentPlanner() {
           <p className='text-[12px]'>يوم مذاكرة</p>
         </div>
       </div>
-      
+      <SSRbar/>
     </div>
   )
 }

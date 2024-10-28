@@ -2,6 +2,7 @@ import React from 'react'
 import Notes from './notes'
 import Degrees from './degrees'
 import StudentBar from '../Student-bar'
+import SSRbar from '../SSRbar'
 
 export default function StudentHome() {
   return (
@@ -12,6 +13,7 @@ export default function StudentHome() {
       <Degrees/>
 
       </div>
+      <SSRbar/>
     </div>
     </>
   )
